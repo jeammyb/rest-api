@@ -3,6 +3,8 @@
 Simple Golang REST API example that provides a JSON with details about countries.
 It consumes the data from the API provided by https://restcountries.eu.
 
+[![](https://images.microbadger.com/badges/image/jeammyb/go-rest-api.svg)](https://microbadger.com/images/jeammyb/go-rest-api "Get your own image badge on microbadger.com")
+
 ## Run application
 
 Go to the main folder and execute the following commands:
@@ -11,7 +13,7 @@ go build
 ./rest-api
 ```
 
-## Build docker image
+## Build Docker image
 
 `make build`
 
